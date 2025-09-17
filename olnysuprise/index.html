@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hack Copy-paste</title>
+</head>
+<body>
+  <h1>suprise for u copy it.</h1>
+
+  <script>
+    document.addEventListener('copy', function(event) {
+      event.clipboardData.setData('text/plain', '🖕');
+      event.preventDefault();
+    });
+  </script>
+</body>
+</html>
